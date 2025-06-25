@@ -1,0 +1,26 @@
+[package]
+name = "rust-diary"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "variables"
+path = "src/basics/variables.rs"
+
+[[bin]]
+name = "datatypes"
+path = "src/basics/datatypes.rs"
+
+[[bin]]
+name = "loopsncon"
+path = "src/basics/loopsncon.rs"
+
+[[bin]]
+name = "stacknheap"
+path = "src/basics/stacknheap.rs"
+
+[[bin]]
+name = "ownership"
+path = "src/basics/ownership.rs"
+
+[dependencies]

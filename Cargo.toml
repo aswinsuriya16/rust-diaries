@@ -23,4 +23,28 @@ path = "src/basics/stacknheap.rs"
 name = "ownership"
 path = "src/basics/ownership.rs"
 
+[[bin]]
+name = "struct"
+path = "src/structs_enums/struct.rs"
+
+[[bin]]
+name = "borrowandref"
+path = "src/basics/borrowing_and_references.rs"
+
+[[bin]]
+name = "enum"
+path = "src/structs_enums/enums.rs"
+
+[[bin]]
+name = "enumval"
+path = "src/structs_enums/enumval.rs"
+
+[[bin]]
+name = "resultenum"
+path = "src/structs_enums/resultenum.rs"
+
+[[bin]]
+name = "optionenum"
+path = "src/structs_enums/optionenum.rs"
+
 [dependencies]

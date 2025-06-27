@@ -47,4 +47,14 @@ path = "src/structs_enums/resultenum.rs"
 name = "optionenum"
 path = "src/structs_enums/optionenum.rs"
 
+[[bin]]
+name = "externalPackage"
+path = "src/basics/externalPackage.rs"
+
+[[bin]]
+name = "closures"
+path = "src/basics/closures.rs"
+
 [dependencies]
+chrono = "0.4.41"
+dotenv = "0.15.0"

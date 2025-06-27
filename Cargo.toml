@@ -55,6 +55,10 @@ path = "src/basics/externalPackage.rs"
 name = "closures"
 path = "src/basics/closures.rs"
 
+[[bin]]
+name = "genrics"
+path = "src/adv/generics.rs"
+
 [dependencies]
 chrono = "0.4.41"
 dotenv = "0.15.0"

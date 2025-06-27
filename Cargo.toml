@@ -59,6 +59,14 @@ path = "src/basics/closures.rs"
 name = "genrics"
 path = "src/adv/generics.rs"
 
+[[bin]]
+name = "genricsoverstructs"
+path = "src/adv/genericsoverstructs.rs"
+
+[[bin]]
+name = "traits"
+path = "src/adv/traits.rs"
+
 [dependencies]
 chrono = "0.4.41"
 dotenv = "0.15.0"

@@ -71,6 +71,22 @@ path = "src/adv/traits.rs"
 name = "traitsgen"
 path = "src/adv/traitswithgenerics.rs"
 
+[[bin]]
+name = "macros"
+path = "src/adv/macros.rs"
+
+[[bin]]
+name = "debugMan"
+path = "src/adv/debugMan.rs"
+
+[[bin]]
+name = "debug"
+path = "src/adv/debugnDis.rs"
+
+[[bin]]
+name = "copynclone"
+path = "src/adv/copynclone.rs"
+
 [dependencies]
 chrono = "0.4.41"
 dotenv = "0.15.0"

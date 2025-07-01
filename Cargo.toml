@@ -91,8 +91,14 @@ path = "src/adv/copynclone.rs"
 name = "serde"
 path = "src/adv/serde.rs"
 
+[[bin]]
+name = "borsh"
+path = "src/adv/borsh.rs"
+
 [dependencies]
+borsh = { version = "1.5", features = ["derive"]}
 chrono = "0.4.41"
 dotenv = "0.15.0"
 serde = {version = "1.0.219" , features = ["derive"]}
 serde_json = "1.0.140"
+

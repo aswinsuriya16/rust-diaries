@@ -1,5 +1,4 @@
 use std::f32::consts::PI;
-
 trait Shape<T> {
     fn area(&self) -> T;
 }
@@ -25,18 +24,30 @@ impl Shape<f32> for Circle {
     }
 }
 
-fn print_area<T,U>(s:T)
+fn print_area<T,U>(s:&T)
 where 
     T : Shape<U>,
     U : std::fmt::Display {
         println!("{}",s.area());
     } 
+
+
+//by debug
+fn print_area_debug<T,U>(s:&T)
+where 
+    T : Shape<U>,
+    U : std::fmt::Debug {
+        println!("{:?}",s.area())
+    }
+
+    
 fn main() {
     let c = Circle { radius: 12.2 };
     println!("Circle : {}", c.area());
 
     let r = Rectangle { length: 10, width: 5 };
     println!("Rectangle : {}", r.area());
-    print_area(c);
-    print_area(r);
+    print_area(&c);
+    print_area(&r);
+    print_area_debug(&r);
 }

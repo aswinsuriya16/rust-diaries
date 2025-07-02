@@ -95,6 +95,10 @@ path = "src/adv/serde.rs"
 name = "borsh"
 path = "src/adv/borsh.rs"
 
+[[bin]]
+name = "lifetime"
+path = "src/adv/lifetimes.rs"
+
 [dependencies]
 borsh = { version = "1.5", features = ["derive"]}
 chrono = "0.4.41"

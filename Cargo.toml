@@ -99,6 +99,10 @@ path = "src/adv/borsh.rs"
 name = "lifetime"
 path = "src/adv/lifetimes.rs"
 
+[[bin]]
+name = "HashMap"
+path = "src/adv/HashMap.rs"
+
 [dependencies]
 borsh = { version = "1.5", features = ["derive"]}
 chrono = "0.4.41"

@@ -20,6 +20,10 @@ name = "stacknheap"
 path = "src/basics/stacknheap.rs"
 
 [[bin]]
+name = "str_slices"
+path = "src/basics/str_slices.rs"
+
+[[bin]]
 name = "ownership"
 path = "src/basics/ownership.rs"
 
@@ -102,6 +106,10 @@ path = "src/adv/lifetimes.rs"
 [[bin]]
 name = "HashMap"
 path = "src/adv/HashMap.rs"
+
+[[bin]]
+name = "multithread"
+path = "src/adv/multithread.rs"
 
 [dependencies]
 borsh = { version = "1.5", features = ["derive"]}
